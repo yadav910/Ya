@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Hello World!</h1>
+        <main>
+        <h3>Cat images</h3>
+            <!--TODO: Add  a link to the cat photo -->
+            <p> Click for more <a href="#" target="_blank">cat photos</a></p>
+             <h4>Cat Lists</h4>
+             <div class="Lists">
+                <p>Things that cat <strong>Love</strong>:</p>
+                <ul>
+                    <li>cat fishing</li>
+                    <li>cat napping</li>
+                    <li>cat playing with laser pointer</li>
+                </ul>
+                <img src="photo.jpg" width="200px">
+                <p>Things that cat <strong>hate</strong>:</p>
+                <ol>
+                    <li> Flea Removal</li>
+                    <li>Dry food</li>
+                    </ol>
+                </div>
+             <img src="photo.jpg" width="200px">
+             <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> indoor</label><br>
+
+                <label for="outdoor"><input id="outdoor" type="radio"name="indoor-outdoor"> outdoor</label><br>
+
+                <label for="Lovingcat"><input id="Lovingcat" type="checkbox" name="personality"> loving </label><br>
+                
+                <input type="text" placeholder="cat image url" required>
+                <button>Submit</button>
+
+             </form>
+        </main>
+    </body>
+</html>
